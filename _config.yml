@@ -1,21 +1,8 @@
 title: DSC180AB B08
-description: A starter template for a Jekyll site using the Just the Docs theme!
+description: A starter template for a Jeykll site using the Just the Docs theme!
+theme: just-the-docs
 
-# Use the remote theme instead of theme
-remote_theme: just-the-docs/just-the-docs
+url: https://just-the-docs.github.io
 
-# URL settings
-url: "https://asdacdsfca.github.io"
-baseurl: "/dsc180-b08-website"
-
-# Auxiliary links
 aux_links:
-  "Template Repository": https://github.com/just-the-docs/just-the-docs-template
-
-# Enable necessary plugins
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-
-# Sidebar navigation order
-nav_order: 1
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
