@@ -1,20 +1,21 @@
 title: DSC180AB B08
 description: A starter template for a Jekyll site using the Just the Docs theme!
 
-# Use remote_theme for GitHub Pages
+# Use the remote theme instead of theme
 remote_theme: just-the-docs/just-the-docs
 
-# URL settings (update with your GitHub username and repository name)
+# URL settings
 url: "https://asdacdsfca.github.io"
 baseurl: "/dsc180-b08-website"
 
-# Auxiliary links (appears in the top right of the navbar)
+# Auxiliary links
 aux_links:
   "Template Repository": https://github.com/just-the-docs/just-the-docs-template
 
 # Enable necessary plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
 
-# Sidebar navigation order (remove nav section)
+# Sidebar navigation order
 nav_order: 1
