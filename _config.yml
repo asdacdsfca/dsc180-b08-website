@@ -1,8 +1,25 @@
 title: DSC180AB B08
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: A starter template for a Jekyll site using the Just the Docs theme!
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# Enable the sidebar navigation
+nav_order: 1
+has_children: true
+
+# Define the sidebar structure
+collections:
+  pages:
+    output: true
+    order:
+      - index.md
+      - background-research.md
+      - data-collections.md
+      - methodology.md
+      - results.md
+      - findings-implications.md
+      - future-directions.md
