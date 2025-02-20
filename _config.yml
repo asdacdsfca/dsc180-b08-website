@@ -10,20 +10,3 @@ aux_links:
 # Enable the sidebar navigation
 nav_order: 1
 has_children: true
-
-# Define the sidebar structure
-# nav:
-#   - title: Home
-#     url: /
-#   - title: Background & Research Question
-#     url: /background-research/
-#   - title: Data Collections
-#     url: /data-collections/
-#   - title: Methodology
-#     url: /methodology/
-#   - title: Results
-#     url: /results/
-#   - title: Findings & Implications
-#     url: /findings-implications/
-#   - title: Future Directions
-#     url: /future-directions/
