@@ -3,6 +3,7 @@ title: Background & Research Question
 parent: Home
 nav_order: 2
 layout: default
+permalink: /background-research/
 ---
 
 # Background & Research Question
