@@ -1,6 +1,5 @@
 ---
 title: Findings & Implications
-parent: Home
 nav_order: 6
 layout: default
 permalink: /findings-implications/
