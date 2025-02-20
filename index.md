@@ -1,6 +1,8 @@
 ---
 title: Home
-layout: home
+nav_order: 1
+layout: default
+permalink: /
 ---
 
 # Comparing Chronos-Bolt and ARIMA Models for Portfolio Optimization in the S&P 500 Information Technology Sector
