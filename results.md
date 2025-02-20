@@ -1,6 +1,5 @@
 ---
 title: Results
-parent: Home
 nav_order: 5
 layout: default
 permalink: /results/
