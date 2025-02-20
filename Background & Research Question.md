@@ -1,6 +1,8 @@
 ---
 title: Background & Research Question
 parent: Home
+nav_order: 2
+layout: default
 ---
 
 # Background & Research Question
