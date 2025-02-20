@@ -1,5 +1,6 @@
 ---
 title: Background & Research Question
+parent: Home
 nav_order: 2
 ---
 
