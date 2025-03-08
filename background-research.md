@@ -8,11 +8,9 @@ permalink: /background-research/
 # Background & Research Question
 
 ## Background
-Provide an overview of the relevant background information for your project. This may include previous work, theoretical foundations, or key concepts necessary to understand your research.
+Stock return forecasting is essential for **portfolio optimization** in financial markets. Traditional models like **ARIMA** offer statistical rigor but struggle with **nonlinear dependencies** and long-term trends in financial data. Recent advancements in **deep learning** have introduced **transformer-based models** such as **Chronos-Bolt**, which leverage **large-scale pretraining** to improve forecasting accuracy. This study evaluates **ARIMA and Chronos-Bolt** for stock return prediction in the **S&P 500 IT sector**, incorporating **sentiment analysis** from social media to assess its impact on portfolio performance.
 
 ## Research Question
-Clearly state the main research question or hypothesis that guides your study. Ensure that it is specific, measurable, and relevant to the domain of your project.
+Can **Chronos-Bolt**, when enhanced with **technical indicators** and **sentiment-derived market signals**, provide more **accurate stock return predictions** and **improve portfolio optimization** compared to **ARIMA**?
 
 ---
-
-*(Update this section with more details specific to your project.)*
