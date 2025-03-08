@@ -12,7 +12,7 @@ Stock price data for **S&P 500 Information Technology sector** companies was col
 
 To integrate **investor sentiment** into stock predictions, a structured **social media sentiment pipeline** was developed. **54,000+ posts** from **finance-focused subreddits** (e.g., *WallStreetBets, Investing*) were collected from **January 1, 2022, to December 31, 2024**.
 
-<img src="/pictures/reddit.png" alt="An Example of Subreddit Page" width="500" height="300">
+<img src="/dsc180-b08-website/pictures/reddit.png" alt="An Example of Subreddit Page" width="500" height="300">
 
 ## Data Processing
  -**Yahoo Finance** Missing values were removed to ensure a **clean dataset** for forecasting and analysis.
