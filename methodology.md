@@ -4,6 +4,9 @@ nav_order: 4
 layout: default
 permalink: /methodology/
 ---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 
 # Methodology
 This section outlines our approach to **time series forecasting** and **portfolio optimization** using **ARIMA**, **Chronos-Bolt**, and **sentiment analysis** for stock return prediction.
@@ -22,16 +25,17 @@ A **multi-stage sentiment analysis pipeline** was developed to **extract investo
    - **Stage 2**: **GPT-4-o-mini refinement** analyzed complex sentiment cases, maintaining **high classification accuracy**.  
 3. **Temporal Aggregation**: Sentiment scores were aggregated **daily** and integrated into **forecasting models**.  
 
-### **Portfolio Optimization Using the Markowitz Model**  
-Predicted stock prices were used for **Mean-Variance Optimization**:  
-\[
-\max_w w^T \mu - \lambda w^T \Sigma w
-\]  
-where **\( w \)** represents portfolio weights, **\( \mu \)** expected returns, and **\( \Sigma \)** the covariance matrix. The optimization ensures:  
-- **Fully invested, long-only positions** with a **25% max allocation per stock**.  
-- **Risk aversion parameter \( \lambda = 0.25 \)**.  
+### **Portfolio Optimization Using the Markowitz Model**
+Predicted stock prices were used for **Mean-Variance Optimization**:
 
-An **investment simulation** with **$10,000 USD** tracked portfolio performance over time, benchmarking against the **S&P 500 IT Services Industry Index**.  
+$$
+\max_w w^T \mu - \lambda w^T \Sigma w
+$$
+
+where **$w$** represents portfolio weights, **$\mu$** expected returns, and **$\Sigma$** the covariance matrix. The optimization ensures:
+- **Fully invested, long-only positions** with a **25% max allocation per stock**.
+- **Risk aversion parameter $\lambda = 0.25$**.
+An **investment simulation** with **$10,000 USD** tracked portfolio performance over time, benchmarking against the **S&P 500 IT Services Industry Index**. 
 
 ### **Summary**  
 This method integrates **advanced time series forecasting**, **sentiment analysis**, and **portfolio optimization**, demonstrating the potential of **transformer-based models** and **investor sentiment signals** in financial decision-making.
