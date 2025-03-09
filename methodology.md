@@ -32,9 +32,9 @@ $$
 \max_w w^T \mu - \lambda w^T \Sigma w
 $$
 
-where **$w$** represents portfolio weights, **$\mu$** expected returns, and **$\Sigma$** the covariance matrix. The optimization ensures:
+where $$\w$$ represents portfolio weights, $$\mu$$ expected returns, and $$\Sigma$$ the covariance matrix. The optimization ensures:
 - **Fully invested, long-only positions** with a **25% max allocation per stock**.
-- **Risk aversion parameter $\lambda = 0.25$**.
+- **Risk aversion parameter $$\lambda = 0.25$$.
 An **investment simulation** with **$10,000 USD** tracked portfolio performance over time, benchmarking against the **S&P 500 IT Services Industry Index**. 
 
 ### **Summary**  
