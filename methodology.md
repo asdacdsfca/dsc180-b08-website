@@ -11,6 +11,11 @@ permalink: /methodology/
 # Methodology
 This section outlines our approach to **time series forecasting** and **portfolio optimization** using **ARIMA**, **Chronos-Bolt**, and **sentiment analysis** for stock return prediction.
 
+<div style="text-align:center">
+    <img src="/dsc180-b08-website/pictures/workflow.png" alt="An Example of Subreddit Page" width="700" height="300">
+    <p><em>An Overview of our methodology workflow</em></p>
+</div>
+
 ### **Chronos-Bolt for Time Series Forecasting**  
 **Chronos-Bolt**, developed by **Amazon**, extends **pretrained language models** for time series prediction by using **quantization and normalization**. Unlike **ARIMA**, it tokenizes financial time series data to improve **probabilistic forecasting accuracy**. Key advantages include:  
 - **Generalization** across different market conditions with **minimal retraining**.  
@@ -34,9 +39,8 @@ $$
 
 where $$\w$$ represents portfolio weights, $$\mu$$ expected returns, and $$\Sigma$$ the covariance matrix. The optimization ensures:
 - **Fully invested, long-only positions** with a **25% max allocation per stock**.
-- **Risk aversion parameter $$\lambda = 0.25$$.
+- **Risk aversion parameter** $$\lambda = 0.25$$.
 An **investment simulation** with **$10,000 USD** tracked portfolio performance over time, benchmarking against the **S&P 500 IT Services Industry Index**. 
 
 ### **Summary**  
 This method integrates **advanced time series forecasting**, **sentiment analysis**, and **portfolio optimization**, demonstrating the potential of **transformer-based models** and **investor sentiment signals** in financial decision-making.
----  
