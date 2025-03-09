@@ -39,7 +39,6 @@ Our comparative analysis of ARIMA and Chronos-Bolt models for stock return forec
 
 <div style="text-align:center">
     <img src="/dsc180-b08-website/pictures/NVDA_example.png" alt="NVDA Stock Price Forecast Comparison" width="700" height="300">
-    <p><em>NVDA Stock Price Forecast Comparison</em></p>
 </div>
 
 The plot above illustrates the prediction of NVDA stock prices using different models:
@@ -63,8 +62,6 @@ Our portfolio consists of the stocks listed in the above table, with the followi
 * **Starting Value:** $10,000
 
 For comparison, we evaluated performance against a benchmark portfolio maintaining fixed allocations based on market capitalization.
-
-### Portfolio Performance Comparison Across Market Cap, ARIMA, and Chronos-Bolt Over Time
 
 <div style="text-align:center">
     <img src="/dsc180-b08-website/pictures/enhanced_portfolio_comparison.png" alt="Portfolio Performance Comparison" width="700" height="300">
