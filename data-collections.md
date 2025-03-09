@@ -9,11 +9,16 @@ permalink: /data-collections/
 
 ## Data Sources
 Stock price data for **S&P 500 Information Technology sector** companies was collected from **Yahoo Finance**, with the company list sourced from **TradingView**. The dataset includes **daily closing prices** from **January 1, 2022, to December 31, 2024**.
+<div style="text-align:center">
+    <img src="/dsc180-b08-website/pictures/yahoo.png" alt="An Example of Subreddit Page" width="700" height="300">
+    <p><em>An Example of Apple's Stock Price on Yahoo Finance</em></p>
+</div>
 
 To integrate **investor sentiment** into stock predictions, a structured **social media sentiment pipeline** was developed. **54,000+ posts** from **finance-focused subreddits** (e.g., *WallStreetBets, Investing*) were collected from **January 1, 2022, to December 31, 2024**.
 
 <div style="text-align:center">
-<img src="/dsc180-b08-website/pictures/reddit.png" alt="An Example of Subreddit Page" width="500" height="300">
+    <img src="/dsc180-b08-website/pictures/reddit.png" alt="An Example of Subreddit Page" width="700" height="300">
+    <p><em>An Example of WallStreetBets Subreddit</em></p>
 </div>
 
 ## Data Processing
