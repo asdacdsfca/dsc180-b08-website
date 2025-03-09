@@ -9,7 +9,7 @@ permalink: /results/
 
 ## Stock Return Prediction Performance
 
-Our comparative analysis of ARIMA and Chronos-Bolt models for stock return forecasting revealed significant differences in predictive accuracy. The table below presents the Mean Absolute Scaled Error (MASE) for both models across various stocks in the S\&P 500 Information Technology sector.
+Our comparative analysis of ARIMA and Chronos-Bolt models for stock return forecasting revealed **significant differences in predictive accuracy**. The table below presents the Mean Absolute Scaled Error (MASE) for both models across various stocks in the S&P 500 Information Technology sector.
 
 ### Comparing Predictive Accuracy: ARIMA vs. Chronos for Stock Forecasting
 
@@ -17,7 +17,7 @@ Our comparative analysis of ARIMA and Chronos-Bolt models for stock return forec
 |:------:|:---------:|:----------:|:------------:|:--------------------------------:|
 |  AAPL  |   Apple   |  4.404759  |   1.277648   |          1.187000               |
 |  MSFT  | Microsoft |  2.577242  |   1.257515   |          1.194542               |
-|  NVDA  |  Nvidia   |  1.667199  |   0.786434   |          0.650632               |
+|  NVDA  |  Nvidia   |  1.667199  |   0.786434   |          **0.650632**           |
 |  AVGO  | Broadcom  |  2.358288  |   0.825056   |          0.760912               |
 |  ORCL  |  Oracle   |  1.627883  |   1.002716   |          0.933530               |
 |  CRM   |Salesforce |  3.041072  |   1.398177   |          1.258305               |
@@ -28,7 +28,12 @@ Our comparative analysis of ARIMA and Chronos-Bolt models for stock return forec
 |  AMD   |    AMD    |  3.051562  |   1.095745   |          1.030000               |
 |  PLTR  | Palantir  |  4.264606  |   0.932880   |          0.886236               |
 
-The results demonstrate that Chronos consistently outperforms ARIMA across all evaluated stocks, with MASE values significantly lower for the Chronos model. When incorporating sentiment analysis, Chronos exhibits further improvements in prediction accuracy, reducing MASE values by an additional 5-15\% compared to the standard Chronos implementation.
+### Key Findings from Predictive Accuracy Analysis:
+
+* **Chronos Outperforms ARIMA:** Chronos consistently delivered superior predictions across all evaluated stocks
+* **Significant Error Reduction:** MASE values were substantially lower for the Chronos model
+* **Sentiment Analysis Boost:** When incorporating sentiment analysis, Chronos exhibited further improvements in prediction accuracy
+* **Additional Accuracy Gain:** Sentiment-enhanced Chronos reduced MASE values by an additional **5-15%** compared to the standard Chronos implementation
 
 ### NVDA Stock Price Forecast Comparison
 
@@ -37,13 +42,27 @@ The results demonstrate that Chronos consistently outperforms ARIMA across all e
     <p><em>NVDA Stock Price Forecast Comparison</em></p>
 </div>
 
-The plot above illustrates the prediction of NVDA stock prices using ARIMA and Chronos-Bolt models, highlighting their respective performances. The historical stock prices are depicted in blue, while the ARIMA forecast is shown as a green dashed line, and the Chronos-Bolt forecast appears in red. The naive forecast, represented by a black dashed line, serves as a baseline for comparison. Additionally, the pink-shaded area represents the 80\% prediction interval for the Chronos-Bolt model, indicating the uncertainty associated with its predictions. The figure further emphasizes the superior predictive accuracy of Chronos-Bolt, as its forecast aligns more closely with the actual stock price movements compared to ARIMA.
+The plot above illustrates the prediction of NVDA stock prices using different models:
+
+* **Historical stock prices** (blue line)
+* **ARIMA forecast** (green dashed line)
+* **Chronos-Bolt forecast** (red line)
+* **Naive forecast** baseline (black dashed line)
+* **80% prediction interval** for Chronos-Bolt (pink-shaded area)
+
+**Visual Evidence:** The figure clearly demonstrates Chronos-Bolt's superior predictive accuracy, as its forecast aligns more closely with actual stock price movements compared to ARIMA.
 
 ## Portfolio Optimization Results
 
-Our portfolio consists of the stocks listed in the above table. We begin by allocating each stock's weight based on its relative market capitalization within the portfolio. As the investment period progresses, stock weights are dynamically adjusted using predictions from the time series models and sentiment scores. To maintain diversification, we impose a minimum weight constraint of 0.05 for each stock. Additionally, we set a risk aversion parameter of 2.5 to balance return maximization with risk control. The portfolio is initialized with a starting value of \$10,000.
+Our portfolio consists of the stocks listed in the above table, with the following optimization parameters:
 
-For comparison, we evaluate its performance against a benchmark portfolio that maintains fixed allocations based on market capitalization. The integration of these forecasting models into portfolio optimization frameworks yielded varying performance outcomes, as shown in the figure below.
+* **Initial Allocation:** Based on relative market capitalization
+* **Dynamic Adjustment:** Weights updated using predictions and sentiment scores
+* **Diversification Constraint:** Minimum weight of 0.05 per stock
+* **Risk Management:** Risk aversion parameter of 2.5
+* **Starting Value:** $10,000
+
+For comparison, we evaluated performance against a benchmark portfolio maintaining fixed allocations based on market capitalization.
 
 ### Portfolio Performance Comparison Across Market Cap, ARIMA, and Chronos-Bolt Over Time
 
@@ -52,13 +71,29 @@ For comparison, we evaluate its performance against a benchmark portfolio that m
     <p><em>Portfolio Performance Comparison</em></p>
 </div>
 
-The above portfolio optimization analysis revealed several key findings:
+### Key Portfolio Performance Insights:
 
-- The Market Cap Portfolio (blue line) maintained relatively stable performance, serving as an effective benchmark for evaluating ARIMA and Chronos models.
-- The ARIMA-based portfolio (orange line) demonstrated extreme volatility and a sharp decline over the evaluation period, significantly underperforming compared to other approaches.
-- Both Chronos-Bolt portfolios, with and without sentiment analysis, consistently outperformed the Market Cap Portfolio benchmark.
-- The sentiment-enhanced Chronos-Bolt portfolio (purple dotted line) achieved the highest returns among all evaluated approaches, highlighting the value of incorporating investor sentiment signals into the forecasting framework.
+1. **Market Cap Portfolio (blue line):**
+   * Maintained relatively stable performance
+   * Served as an effective benchmark for evaluation
 
-These results confirm our hypothesis that transformer-based models like Chronos-Bolt can capture complex patterns in stock market data more effectively than traditional ARIMA models. Furthermore, the integration of sentiment analysis provides additional predictive power, resulting in superior portfolio performance.
+2. **ARIMA-based Portfolio (orange line):**
+   * Demonstrated extreme volatility
+   * Experienced sharp decline over the evaluation period
+   * Significantly underperformed compared to other approaches
+
+3. **Chronos-Bolt Portfolios:**
+   * **Both versions consistently outperformed** the Market Cap Portfolio benchmark
+   * **Sentiment-enhanced Chronos-Bolt portfolio (purple dotted line)** achieved the highest returns among all evaluated approaches
+
+### Conclusions:
+
+✓ Results confirm our hypothesis that **transformer-based models like Chronos-Bolt can capture complex patterns** in stock market data more effectively than traditional ARIMA models
+
+✓ The integration of sentiment analysis provides **additional predictive power**, resulting in superior portfolio performance
+
+✓ For investors seeking enhanced returns, **Chronos-Bolt with sentiment analysis** represents the most promising approach based on our evaluation
 
 ---
+
+
