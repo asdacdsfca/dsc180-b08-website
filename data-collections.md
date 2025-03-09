@@ -27,5 +27,3 @@ To integrate **investor sentiment** into stock predictions, a structured **socia
  -**Reddit** A **keyword filter** was applied to isolate **25,800 relevant posts** discussing **S&P 500 IT sector equities**. Posts were preprocessed by removing **non-text elements** and filtered for **English-language content**. Sentiment was classified using **large language models (LLMs)** to generate **bullish, bearish, or neutral signals** for downstream portfolio optimization.
 
 ---
-
-*(Update this section with specific details relevant to your project.)*

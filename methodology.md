@@ -6,19 +6,33 @@ permalink: /methodology/
 ---
 
 # Methodology
+This section outlines our approach to **time series forecasting** and **portfolio optimization** using **ARIMA**, **Chronos-Bolt**, and **sentiment analysis** for stock return prediction.
 
-## Research Design
-Describe the overall design of the research, including the key methods and techniques used.
+### **Chronos-Bolt for Time Series Forecasting**  
+**Chronos-Bolt**, developed by **Amazon**, extends **pretrained language models** for time series prediction by using **quantization and normalization**. Unlike **ARIMA**, it tokenizes financial time series data to improve **probabilistic forecasting accuracy**. Key advantages include:  
+- **Generalization** across different market conditions with **minimal retraining**.  
+- **Probabilistic sequence modeling** that improves uncertainty estimation.  
+- **Enhanced accuracy** in predicting stock price movements over traditional models.
+ 
+### **Sentiment Analysis for Financial Forecasting**  
+A **multi-stage sentiment analysis pipeline** was developed to **extract investor sentiment** from **social media posts**:  
+1. **Data Collection**: **30,000+ posts** from **WallStreetBets, Investing** (Jan 1, 2022 – Dec 31, 2024) were collected. After applying **keyword filters**, **5,800 relevant posts** related to **S&P 500 IT sector equities** were retained.  
+2. **Two-Stage Sentiment Classification**:  
+   - **Stage 1**: **FinBERT pre-filtering** classified posts into **bullish, bearish, or neutral** categories, reducing computational costs.  
+   - **Stage 2**: **GPT-4-o-mini refinement** analyzed complex sentiment cases, maintaining **high classification accuracy**.  
+3. **Temporal Aggregation**: Sentiment scores were aggregated **daily** and integrated into **forecasting models**.  
 
-## Data Analysis
-Explain the analytical methods applied to the collected data, such as statistical techniques, machine learning models, or qualitative approaches.
+### **Portfolio Optimization Using the Markowitz Model**  
+Predicted stock prices were used for **Mean-Variance Optimization**:  
+\[
+\max_w w^T \mu - \lambda w^T \Sigma w
+\]  
+where **\( w \)** represents portfolio weights, **\( \mu \)** expected returns, and **\( \Sigma \)** the covariance matrix. The optimization ensures:  
+- **Fully invested, long-only positions** with a **25% max allocation per stock**.  
+- **Risk aversion parameter \( \lambda = 0.25 \)**.  
 
-## Tools and Technologies
-List and describe the tools, frameworks, or software used for data collection, processing, and analysis.
+An **investment simulation** with **$10,000 USD** tracked portfolio performance over time, benchmarking against the **S&P 500 IT Services Industry Index**.  
 
-## Assumptions and Constraints
-Discuss any assumptions made in the study and constraints that may impact the results.
-
----
-
-*(Update this section with specific details relevant to the project.)*
+### **Summary**  
+This method integrates **advanced time series forecasting**, **sentiment analysis**, and **portfolio optimization**, demonstrating the potential of **transformer-based models** and **investor sentiment signals** in financial decision-making.
+---  
