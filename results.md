@@ -32,7 +32,10 @@ The results demonstrate that Chronos consistently outperforms ARIMA across all e
 
 ### NVDA Stock Price Forecast Comparison
 
-![NVDA Stock Price Forecast Comparison](pictures/NVDA_example.png)
+<div style="text-align:center">
+    <img src="/dsc180-b08-website/pictures/NVDA_example.png" alt="NVDA Stock Price Forecast Comparison" width="700" height="300">
+    <p><em>NVDA Stock Price Forecast Comparison</em></p>
+</div>
 
 The plot above illustrates the prediction of NVDA stock prices using ARIMA and Chronos-Bolt models, highlighting their respective performances. The historical stock prices are depicted in blue, while the ARIMA forecast is shown as a green dashed line, and the Chronos-Bolt forecast appears in red. The naive forecast, represented by a black dashed line, serves as a baseline for comparison. Additionally, the pink-shaded area represents the 80\% prediction interval for the Chronos-Bolt model, indicating the uncertainty associated with its predictions. The figure further emphasizes the superior predictive accuracy of Chronos-Bolt, as its forecast aligns more closely with the actual stock price movements compared to ARIMA.
 
@@ -44,7 +47,10 @@ For comparison, we evaluate its performance against a benchmark portfolio that m
 
 ### Portfolio Performance Comparison Across Market Cap, ARIMA, and Chronos-Bolt Over Time
 
-![Portfolio Performance Comparison](pictures/enhanced_portfolio_comparison.png)
+<div style="text-align:center">
+    <img src="/dsc180-b08-website/pictures/enhanced_portfolio_comparison.png" alt="Portfolio Performance Comparison" width="700" height="300">
+    <p><em>Portfolio Performance Comparison</em></p>
+</div>
 
 The above portfolio optimization analysis revealed several key findings:
 
@@ -56,5 +62,3 @@ The above portfolio optimization analysis revealed several key findings:
 These results confirm our hypothesis that transformer-based models like Chronos-Bolt can capture complex patterns in stock market data more effectively than traditional ARIMA models. Furthermore, the integration of sentiment analysis provides additional predictive power, resulting in superior portfolio performance.
 
 ---
-
-*(Update this section with specific details relevant to your project.)*
