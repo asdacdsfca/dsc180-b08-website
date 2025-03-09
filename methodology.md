@@ -43,7 +43,7 @@ where $$\w$$ represents portfolio weights, $$\mu$$ expected returns, and $$\Sigm
 An **investment simulation** with **$10,000 USD** tracked portfolio performance over time, benchmarking against the **S&P 500 IT Services Industry Index**. 
 
 <div style="text-align:center">
-    <img src="/dsc180-b08-website/pictures/marketcap.png" alt="An Example of Subreddit Page" width="700" height="300">
+    <img src="/dsc180-b08-website/pictures/marketcap.png" alt="An Example of Subreddit Page" width="500" height="200">
     <p><em>Top Market Cap Companies (source: tradingview.com)</em></p>
 </div>
 
