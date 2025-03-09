@@ -17,3 +17,8 @@ permalink: /
 - [Results](#results)
 - [Findings & Implications](#findings--implications)
 - [Future Directions](#future-directions)
+
+## Code & Poster
+💻 You can find our **Github respository** <a href="https://github.com/asdacdsfca/dsc180_b08" target="_blank">here</a>
+
+🪧 You can find our **poster** <a href="https://drive.google.com/file/d/1V6RnXS4tDHc7dhsLZYl8quiOU0kCbego/view?usp=sharing" target="_blank">here</a>
