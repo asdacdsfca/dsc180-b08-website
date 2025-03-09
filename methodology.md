@@ -42,5 +42,10 @@ where $$\w$$ represents portfolio weights, $$\mu$$ expected returns, and $$\Sigm
 - **Risk aversion parameter** $$\lambda = 0.25$$.
 An **investment simulation** with **$10,000 USD** tracked portfolio performance over time, benchmarking against the **S&P 500 IT Services Industry Index**. 
 
+<div style="text-align:center">
+    <img src="/dsc180-b08-website/pictures/marketcap.png" alt="An Example of Subreddit Page" width="700" height="300">
+    <p><em>Top Market Cap Companies (source: tradingview.com)</em></p>
+</div>
+
 ### **Summary**  
 This method integrates **advanced time series forecasting**, **sentiment analysis**, and **portfolio optimization**, demonstrating the potential of **transformer-based models** and **investor sentiment signals** in financial decision-making.
