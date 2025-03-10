@@ -27,7 +27,7 @@ The general ARIMA model is given by:
 
 $$Y_t = c + \sum_{i=1}^{p} \phi_i Y_{t-i} + \sum_{j=1}^{q} \theta_j \epsilon_{t-j} + \epsilon_t$$
 
-where $$Y_t$$ is the value at time $$t$$, $$c$$ is a constant, $$\phi_i$$ are AR coefficients, $\theta_j$ are MA coefficients, and $\epsilon_t$ is white noise.
+where $$Y_t$$ is the value at time $$t$$, $$c$$ is a constant, $$\phi_i$$ are AR coefficients, $$\theta_j$$ are MA coefficients, and $$\epsilon_t$$ is white noise.
 
 Our implementation features:
 1. **Hyperparameter Optimization**: Using **auto_arima from pmdarima** to select optimal parameters based on **AIC**, with manual grid search as fallback
