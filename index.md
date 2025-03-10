@@ -16,7 +16,7 @@ permalink: /
 - [Methodology](methodology)
 - [Results](results)
 - [Findings & Implications](findings-implications)
-- [Limitations and Future Directions](futuredirections)
+- [Limitations and Future Directions](limitations-and-future-directions)
 
 ## Code & Poster
 💻 You can find our **Github respository** <a href="https://github.com/asdacdsfca/dsc180_b08" target="_blank">here</a>
